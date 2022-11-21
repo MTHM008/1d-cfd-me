@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "flake8",
+      "setup": "pip3 install numpy sympy flake8",
+      "run": "flake8",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "pytest",
+      "setup": "sudo -H pip3 install numpy sympy pytest",
+      "run": "python3 -m pytest",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
