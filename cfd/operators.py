@@ -9,7 +9,7 @@ def diff(f, dx, centered=True):
         # where dx is the grid spacing
         return (np.roll(f, -1)-np.roll(f, 1))/(2*dx)
     else:
-        # returns an array containing the backward difference
+        # returns an array containing the backward difference 
         # approximation to the spatial derivative of f:
         # df_i/dx \approx (f_i-f_{i-1})/dx
         # where dx is the grid spacing
